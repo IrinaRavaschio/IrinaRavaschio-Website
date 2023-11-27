@@ -1,0 +1,114 @@
+/*Index*/
+
+.img-card1 {
+    width: 100%;
+    max-width: 550px;
+    text-align: right;
+}
+
+.decoración-derecha {
+    width: 80px;
+}
+
+.btn {
+    background-color: rgb(251, 199, 55);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+
+    &:hover {
+        background-color: rgb(255, 187, 0);
+    }
+}
+
+.Serviciosi {
+    width: 200px;
+}
+
+.servicioss {
+    padding: 0px 5px;
+}
+
+.btnb {
+    background-color: rgb(251, 199, 55);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: rgb(255, 187, 0);
+    }
+}
+
+.btnc {
+    background-color: rgb(255, 126, 34);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: rgb(252, 107, 3);
+    }
+}
+
+.btnd {
+    background-color: rgb(255, 155, 196);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: rgb(252, 124, 176);
+    }
+}
+
+.btndg {
+    background-color: rgb(127, 176, 93);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: rgb(108, 163, 69);
+    }
+}
+
+.btnp {
+    background-color: rgb(118, 175, 198);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: rgb(81, 167, 201);
+    }
+}
+
+.btnw {
+    background-color: rgb(181, 149, 184);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: rgb(162, 123, 166);
+    }
+}
+
+.Portfolio {
+    width: 550px;
+    text-align: left;
+}
+
+.portfolio-derecha,
+.text-right-2 {
+    text-align: right;
+}
+
+.btn2 {
+    background-color: rgb(251, 199, 55);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 200px;
+    margin-left: auto;
+
+    &:hover {
+        background-color: rgb(255, 187, 0);
+    }
+}

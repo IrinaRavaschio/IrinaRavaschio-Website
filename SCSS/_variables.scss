@@ -1,0 +1,132 @@
+/*Tipografía*/
+
+@font-face {
+    font-family: 'Futura-Book';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Futura-Book'),
+        url(../Fonts/Futura/Book.ttf) format('woff')
+}
+
+@font-face {
+    font-family: 'Golfmind';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Golfmind'),
+        url(../Fonts/Golfmind.ttf) format('woff')
+}
+
+/*Tamaños y fuentes*/
+
+h1,
+h2,
+h3 {
+    font-family: 'Golfmind', sans-serif;
+}
+
+nav,
+footer,
+p,
+li {
+    font-family: 'Futura-Book', sans-serif;
+}
+
+h1 {
+    h2 h3 nav footer p li {
+        color: black;
+    }
+
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+nav {
+    font-size: 20px;
+}
+
+footer,
+li {
+    font-size: 16px;
+}
+
+/*Estilo de enlaces y listas*/
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+li {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+/*Estilo para el fondo*/
+
+body {
+    background-color: rgb(242, 237, 232);
+    margin: 0 20px;
+    padding: 20px 20px;
+}
+
+/* Header*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo {
+    width: 130px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.Logof {
+    width: 200px;
+}
+
+/*Footer*/
+
+.footer-link {
+    background-color: rgb(242, 237, 232);
+    margin: 0;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-footer,
+.seguinos-footer,
+.contactanos-footer {
+    text-align: center;
+}
+
+
+

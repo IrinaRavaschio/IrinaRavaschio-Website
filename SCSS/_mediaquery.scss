@@ -1,0 +1,129 @@
+/*Responsive Design*/
+
+@media (max-width: 1023px) {
+    .footer-link {
+        flex-direction: column;
+    }
+
+    .img-card1,
+    .Portfolio {
+        width: 100%;
+    }
+
+    .img-card1 {
+        margin-top: 2rem;
+    }
+
+    .Logo {
+        max-width: 90px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4,
+    nav {
+        font-size: 18px;
+    }
+
+    li,
+    footer {
+        font-size: 12px;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Logof {
+        width: 100px;
+    }
+
+    .img-us {
+        width: 350px;
+    }
+
+    .anatomia-img,
+    .img-habilidades,
+    .img-3 {
+        width: 100%;
+    }
+
+    .img-habilidades {
+        margin-top: 2rem;
+    }
+
+    .order-1-custom {
+        order: 1;
+    }
+
+    .order-2-custom {
+        order: 2;
+    }
+
+    .col-7,
+    .img-servicios {
+        width: 100%;
+    }
+
+    .img-portfolio {
+        width: 250px;
+    }
+
+    .btnb,
+    .btnc,
+    .btnd,
+    .btndg,
+    .btnp,
+    .btnw {
+        max-width: 250px;
+        margin: auto;
+    }
+
+    .img-contact {
+        max-width: 60px;
+    }
+
+    .email-telefono-form,
+    .nombre-apellido-form {
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: -2rem;
+    }
+
+    .largo,
+    .input-form {
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-right: 1rem;
+    }
+
+    .btn,
+    .btn2 {
+        margin: auto;
+    }
+
+    .text-center-custom {
+        text-align: center !important;
+    }
+
+    .nav-links {
+        gap: .5rem;
+    }
+}

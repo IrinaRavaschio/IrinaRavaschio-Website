@@ -1,0 +1,15 @@
+/*Mixin*/
+
+/*Mixin sin parámetros*/
+
+@mixin buttonindex {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btnb .btnc .btnd .btndg .btnp .btnw {
+    @include buttonindex;
+}
+
+
+
